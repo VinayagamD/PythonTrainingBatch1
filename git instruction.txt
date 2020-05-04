@@ -1,0 +1,11 @@
+To Clone Use Below command -read permission
+git clone <git url>
+
+To Update git repo -read permission
+git pull 
+
+To push git remote repo -write permission
+git add .
+git commit -m "<Commit MSG>"
+git push
+
