@@ -1,0 +1,21 @@
+Assign two variables with integer
+Perform following operation
+Addition - +
+Subtraction - -
+Mulitplication - *
+Division - /
+Modulos - %
+
+
+Assign two variables with float
+Perform following operation
+Addition - +
+Subtraction - -
+Mulitplication - *
+Division - /
+
+
+Assign two variables with complex
+Perform following operation
+Addition - +
+Subtraction - -
