@@ -1,0 +1,7 @@
+Take some string 
+Try to following operation
+1) print string
+2) Convert String captial and small
+3) Append two strings
+5) Get a substring from string
+6) print len of string
