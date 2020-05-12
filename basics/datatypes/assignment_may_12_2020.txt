@@ -1,0 +1,6 @@
+Create Sets of your friends. Condition friends name should be duplicate
+print the set
+
+Create dictionary of friends list with school friends and house
+print school
+print house
