@@ -1,0 +1,6 @@
+Get Input from keyboard your first and last name
+print full name
+Get Input age from the keyboard and print
+prin the age
+Get Input form the keyboard school name
+print the school name
