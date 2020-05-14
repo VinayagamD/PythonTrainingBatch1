@@ -82,4 +82,4 @@ print(' '.join(['This', 'will', 'join', 'all', 'words', 'into', 'a', 'string']))
 print('Happy New Year'.find('ew'))
 print('Happy New Year'.replace('Happy','Brilliant'))
 
-
+print('Ho '*3, 'Merry Christmas')

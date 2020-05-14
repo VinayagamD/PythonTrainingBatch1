@@ -1,6 +1,11 @@
 Get Input from keyboard your first and last name
 print full name
 Get Input age from the keyboard and print
-prin the age
+age type convert to int
+print
 Get Input form the keyboard school name
 print the school name
+
+-------------------- assigment 14 May -------------------
+take input number modulus of  2 and check the result
+take list of number and check whether that another number as input and check whether the input is present in the list
