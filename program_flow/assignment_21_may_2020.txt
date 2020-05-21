@@ -1,0 +1,19 @@
+1) Code check whether person is eligible for voting:
+    -> Take a age from the user
+    -> compare user age greater than 18
+    -> print "eligile to vote"
+    -> else
+    -> print "not eligible to vote"
+2) Take day of the week
+    -> print("SUN, MON, TUE, WED, THU, FRI, SAT")
+    -> take input fro user asking choose the day
+    -> message
+
+# Multiplication table
+1) take input make value = y
+1) Take a input from user
+2) print unless value becomes 10  list(range(1,11))
+3) use for loop print the table 2 x 1 = 2
+4) if you want to print other table then type y or any letter to quit
+
+
