@@ -7,9 +7,9 @@ Number Data type
 print("Learning Int datatype")
 a = 10
 print("Type of a: ", type(a))
-
 print(a + 11)
 print(a)
+
 a = a + 11
 print(a)
 print(a - 5)
@@ -28,5 +28,8 @@ print("-----------------------------------------------")
 #  Float Data type
 print("Learning Complex Datatype")
 c = 4 + 1j
+print(c)
+print(type(c))
+c = 5j
 print(c)
 print(type(c))
