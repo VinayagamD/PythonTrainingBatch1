@@ -8,9 +8,8 @@ config = {"user": "vinay",
 cnx = mysql.connector.connect(**config)
 
 try:
-
     cursor = cnx.cursor()
-    query = "INSERT INTO studentss (name) VALUES (%s)"
+    query = "INSERT INTO student (name) VALUES (%s)"
     val = ("vinay",)
     cursor.execute(query, val)
     cnx.commit()
