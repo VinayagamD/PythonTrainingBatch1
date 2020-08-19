@@ -1,0 +1,12 @@
+Create database of bio_data
+
+create profile
+
+    name
+    age
+    dob
+    hobbies
+    education
+    school_name
+
+Experiment on DDL and DML (CRUD) Both mysql and python
