@@ -22,5 +22,5 @@ print("hi Midhul", "Your Learning Python Class", "Using Teams", sep="\t")
 print("hi Midhul", "Your Learning Python Class", "Using Teams", sep="\n")
 
 # print file name
-printfile = open("file.html", 'w+')
-print("hi Midhul", "Your Learning Python Class", "Using Teams", file=printfile)
+print_file = open("file.html", 'w+')
+print("hi Anushka", "Your Learning Python Class", "Using Teams", file=print_file, flush=True)
