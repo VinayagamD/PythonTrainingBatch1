@@ -65,7 +65,9 @@ Design a class to take bio data:
 
 
 # Step 2: Create a class for designing a bio data
-class BioData:
+
+
+class BioData(object):
     """
     This class helps us to template bio data
     """
@@ -95,12 +97,12 @@ class BioData:
     def to_json(self):
         """
         This method returns json string from the values
-        :return: json string from bio data
+        :return: json string from bio data i.e., dictionary
         """
         pass
 
-    @staticmethod
-    def from_json(param: dict):
+    @classmethod
+    def from_json(cls, param: dict):
         """
         This method helps to create a object from the dictionary
         :param param: dictionary param also called as json
