@@ -96,8 +96,8 @@ class BioData(object):
 
     def to_json(self):
         """
-        This method returns json string from the values
-        :return: json string from bio data i.e., dictionary
+        This method returns json_data string from the values
+        :return: json_data string from bio data i.e., dictionary
         """
         pass
 
@@ -105,8 +105,8 @@ class BioData(object):
     def from_json(cls, param: dict):
         """
         This method helps to create a object from the dictionary
-        :param param: dictionary param also called as json
-        :return: created object from json
+        :param param: dictionary param also called as json_data
+        :return: created object from json_data
         """
         pass
 
