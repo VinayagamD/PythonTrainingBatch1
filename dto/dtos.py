@@ -15,5 +15,6 @@ class BioData:
 
     @classmethod
     def from_json(cls, json_data):
-        return BioData(name=json_data['name'], age=json_data['age'])
+        bio_data = json.loads(json_data)
+        return BioData(name=bio_data['name'], age=bio_data['age'])
 

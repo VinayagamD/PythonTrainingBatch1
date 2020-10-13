@@ -1,11 +1,10 @@
 import unittest
+import json
 
 from dto import BioData
 
 
 class MyTestCase(unittest.TestCase):
-    def test_something(self):
-        self.assertEqual(True, False)
 
     def test_create_bio_data(self):
         expected_name = "Test Name"
@@ -25,7 +24,9 @@ class MyTestCase(unittest.TestCase):
     def test_from_json(self):
         expected_name = "Test Name"
         expected_age = 25
-        bio_data = BioData.from_json({'name': expected_name, 'age': expected_age})
+        json_src = {'name': expected_name, 'age': expected_age}
+        json_data = json.dumps(json_src)
+        bio_data = BioData.from_json(json_data)
         self.assertNotEqual(bio_data, None)
         print(bio_data.__str__())
         print(bio_data)
