@@ -9,7 +9,7 @@ config = {"user": "vinay",
 cnx = mysql.connector.connect(**config)
 cursor = cnx.cursor()
 query = "INSERT INTO student (name) VALUES (%s)"
-val = ("vinay",)
+val = ("Shipra",)
 cursor.execute(query, val)
 cnx.commit()
 print(cursor.rowcount, "record inserted.")
