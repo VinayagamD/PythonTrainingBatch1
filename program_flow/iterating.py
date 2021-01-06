@@ -25,32 +25,32 @@ for i in range(2, 10, 3):
 print("exited for loop")
 print(list(range(1, 11)))
 print(list(range(25, 0, -1)))
-print("--------------- triangle number -----------------")
-for i in range(1, 6):
-    for j in range(1, i+1):
-        print(i, end=" ")
-    print()
-print("--------------- matrix statement -----------------")
-for i in range(1, 6):
-    for j in range(1, 6):
-        print(j, end=" ")
-    print(" ")
-
-print("--------------- break statement -----------------")
-for i in range(1, 100):
-    if i == 10:
-        break
-    print(i)
-
-print("break the loop")
-
-print("--------------- continue statement -----------------")
-for i in range(1, 100):
-    if i in range(1, 90):
-        continue
-    print(i)
-
-print("continue the loop ended")
-
-if i == 2:
-    pass
+# print("--------------- triangle number -----------------")
+# for i in range(1, 6):
+#     for j in range(1, i+1):
+#         print(i, end=" ")
+#     print()
+# print("--------------- matrix statement -----------------")
+# for i in range(1, 6):
+#     for j in range(1, 6):
+#         print(j, end=" ")
+#     print(" ")
+#
+# print("--------------- break statement -----------------")
+# for i in range(1, 100):
+#     if i == 10:
+#         break
+#     print(i)
+#
+# print("break the loop")
+#
+# print("--------------- continue statement -----------------")
+# for i in range(1, 100):
+#     if i in range(1, 90):
+#         continue
+#     print(i)
+#
+# print("continue the loop ended")
+#
+# if i == 2:
+#     pass

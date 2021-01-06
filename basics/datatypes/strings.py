@@ -21,6 +21,10 @@ for i in range(0, len(mystring)):
 print()
 print('====================================')
 print(mystring[::-1])
+
+data = "Akshaya"
+print(len(data))
+
 # for i in range(-1, -22):
 #     print(mystring[i], end="\t")
 # print(mystring[0:5])

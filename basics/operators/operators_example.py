@@ -58,9 +58,12 @@ print("------------------ Special -------------------------")
 print("------------------ Identity -------------------------")
 u = "H"
 x = "Hi"
+x1 = "Hi"
 y = "Hello"
 z = 1
+print(x is u)
 print(x is x)
+print(x is x1)
 print(x is not y)
 print(x is not z)
 
@@ -71,6 +74,7 @@ print(x in y)
 print(x not in y)
 
 print("------------- Short Hand Assigment -------------")
+# LHS = RHS
 x = 10
 x += 5  # x = x+5
 print(x)

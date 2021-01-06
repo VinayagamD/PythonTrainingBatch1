@@ -1,12 +1,12 @@
 if True:
     print("True Execute")
 
-if False:
+if True:
     print("False Will Not Execute Inside If")
 else:
     print("False Will Not Execute Inside If but in else block")
 
-i = 0
+i = 1
 print(i == 0)
 if i == 1:
     print("Value is 1 selected")
